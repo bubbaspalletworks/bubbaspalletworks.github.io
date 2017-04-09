@@ -22,70 +22,50 @@ html
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"
             )
+        link(
+            href="https://fonts.googleapis.com/css?family=Rock+Salt" 
+            rel="stylesheet"
+            )    
     body
         //-
             navbar
         div.navbar-fixed
-            nav.blue-grey
+            nav.brown.lighten-4
                 div.nav-wrapper
-                    a(href="#" class="brand-logo" id="resume") Bubba Pallet Works
+                    a(href="#" class="brand-logo" id="resume").black-text Bubba Pallet Works
                     a(href="#" data-activates="mobile-demo" class="button-collapse")
                         i.material-icons menu
                     ul.right.hide-on-med-and-down
                         li
-                            a(href="#about") About
+                            a(href="#about").black-text About
                         li
-                            a(href="#skills") Custom Orders
+                            a(href="#custom-orders").black-text Custom Orders
                         li
-                            a(href="#my-work") My Work
+                            a(href="#my-work").black-text My Work
                         li
-                            a(href="#contact") Contact
+                            a(href="#contact").black-text Contact
                     ul(class="side-nav" id="mobile-demo")
                         li
-                            a(href="#about") About
+                            a(href="#about").black-text About
                         li
-                            a(href="#skills") Custom Orders
+                            a(href="#skills").black-text Custom Orders
                         li
-                            a(href="#my-work") My Work
+                            a(href="#my-work").black-text My Work
                         li
-                            a(href="#contact") Contact
+                            a(href="#contact").black-text Contact
             //-
                 hero image
         div#hero-img
             img(src="img/logo.jpg")
+            
+
 
         div.container
-
-            div#about
-                h1.hide-on-small-only.center-align.section About Me
-                h3.hide-on-med-and-up.center-align.section About Me
-                div.divider
-
-                div
-                div.section.center-align.row
-                  div.col.s12.m3
-                    p 
-                      |Morty, can you get to the left nipple? Cause he roped me into this! Morty! The 
-                      | principal and I have discussed it, a-a-and we're both insecure enough to agree to a three-way! Don't be trippin dog we got you.
-                    p
-                      |I'll tell you how I feel about school, Jerry. It's a waste of time. Bunch of people runnin' around bumpin' into each other, got a 
-                      | guy up front says, '2 + 2,' and the people in the back say, '4.' Then the bell rings and they give you a carton of milk and a piece 
-                      | of paper that says you can go take a dump or somethin'. I mean, it's not a place for smart people, Jerry. I know that's not a popular 
-                      |opinion, but that's my two cents on the issue. "Quantum carburetor"? Jesus, Morty. You can't just add a Sci-Fi word to a car word and 
-                      | hope it means something… Huh, looks like something's wrong with the microverse battery. We're gonna have to go inside. There is no god, 
-                      | Summer; gotta rip that band-aid off now you'll thank me later. Rick, I don't like glowing rocks in the kitchen trash!
-                  div.col.s12.m6
-                    img(src="img/profile.jpg")#profile
-                  div.col.s12.m3
-                    p
-                      | My man! Dont look at me! That guy over there roped me into this. Did you just come into the cafeteria through a portal? Yeah, sure, I 
-                      |mean, if you spend all day shuffling words around, you can make anything sound bad.
-                    p
-                      |You're young, you have your whole life ahead of you, and your anal cavity is still taut yet malleable. I'm Mr. Crowbar, and here is my 
-                      |friend, who is also a crowbar! Meeseeks don't usually have to exist for this long. It's gettin' weeeiiird. I'll be with Reuben in my 
-                      |workshop while you guys are having another day in Phil Collin's proverbial paradise.
-
-
+            div#custom-orders
+              h2.center-align.section Custom Orders
+              div.divider
+              p this is where we will put stuff.
+            
                                         
         div#my-work
         
@@ -249,9 +229,38 @@ html
             img(src="img/skull.jpg")
             img(src="img/smith.jpg")
             img(src="img/welcome.jpg")
+            
+        div.container
+          div#about
+            h2.hide-on-small-only.center-align.section About Me
+            h3.hide-on-med-and-up.center-align.section About Me
+            div.divider
 
+            div
+            div.section.center-align.row
+              div.col.s12.m3.grey.lighten-2.about-text
+                p 
+                  |Morty, can you get to the left nipple? Cause he roped me into this! Morty! The 
+                  | principal and I have discussed it, a-a-and we're both insecure enough to agree to a three-way! Don't be trippin dog we got you.
+                p
+                  |I'll tell you how I feel about school, Jerry. It's a waste of time. Bunch of people runnin' around bumpin' into each other, got a 
+                  | guy up front says, '2 + 2,' and the people in the back say, '4.' Then the bell rings and they give you a carton of milk and a piece 
+                  | of paper that says you can go take a dump or somethin'. I mean, it's not a place for smart people, Jerry. I know that's not a popular 
+                  |opinion, but that's my two cents on the issue. "Quantum carburetor"? Jesus, Morty. You can't just add a Sci-Fi word to a car word and 
+                  | hope it means something… Huh, looks like something's wrong with the microverse battery. We're gonna have to go inside. There is no god, 
+                  | Summer; gotta rip that band-aid off now you'll thank me later. Rick, I don't like glowing rocks in the kitchen trash!
+              div.col.s12.m6
+                img(src="img/profile.jpg")#profile
+              div.col.s12.m3.grey.lighten-4.about-text
+                p
+                  | My man! Dont look at me! That guy over there roped me into this. Did you just come into the cafeteria through a portal? Yeah, sure, I 
+                  |mean, if you spend all day shuffling words around, you can make anything sound bad.
+                p
+                  |You're young, you have your whole life ahead of you, and your anal cavity is still taut yet malleable. I'm Mr. Crowbar, and here is my 
+                  |friend, who is also a crowbar! Meeseeks don't usually have to exist for this long. It's gettin' weeeiiird. I'll be with Reuben in my 
+                  |workshop while you guys are having another day in Phil Collin's proverbial paradise.
 
-        footer#contact.page-footer.blue-grey
+        footer#contact.page-footer.brown.lighten-2
             div.container
                 div.row
                     div.col.l6.s12
