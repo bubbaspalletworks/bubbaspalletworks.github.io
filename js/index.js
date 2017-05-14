@@ -5,6 +5,10 @@ $( document ).ready(function(){
      } }
   ];
   Materialize.scrollFire(options);
-
   $(".button-collapse").sideNav();
+  $('.slider').slider({
+    full_width: false,
+    interval:5000,
+    transition:800
+  });
 })
